@@ -791,6 +791,11 @@ body,
   height: 1.5rem;
 }
 
+.before\:w-6::before{
+  content: var(--tw-content);
+  width: 1.5rem;
+}
+
 .before\:rounded-full::before{
   content: var(--tw-content);
   border-radius: 9999px;
@@ -810,4 +815,10 @@ body,
 .hover\:text-yellow:hover{
   --tw-text-opacity: 1;
   color: rgb(253 204 73 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1060px){
+  .md\:h-full{
+    height: 100%;
+  }
 }
