@@ -1,3 +1,4 @@
 Tech
 React
-framer-motion 
+framer-motion
+Tailwind CSS
