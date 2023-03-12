@@ -1,21 +1,24 @@
-import Navbar from "./scenes/Navbar"
-import DotGroup from "./scenes/DoGgroup"
-import { useEffect, useState } from "react";
+import Navbar from "./scenes/Navbar";
+import DotGroup from "./scenes/DotGroup";
 import useMediaQuery from "./hooks/useMediaQuery";
+import { useEffect, useState } from "react";
 
 function App() {
-  const [selectedPage, setSelectedPage] = useState('home')
-  const [isTopOfPage, setIsTopOfPage] = useState(true)
-  const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)")
+  const [selectedPage, setSelectedPage] = useState("home");
+  const [isTopOfPage, setIsTopOfPage] = useState(true);
+  const isDesktop = useMediaQuery("(min-width: 1060px)");
 
   useEffect(() => {
     const handleScroll = () => {
-      if(window.scrollY === 0) setIsTopOfPage(true)
-      if(window.scrollY !== 0) setIsTopOfPage(false)
-    }
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+      if (window.scrollY === 0) {
+        setIsTopOfPage(true);
+        setSelectedPage("home");
+      }
+      if (window.scrollY !== 0) setIsTopOfPage(false);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <div className="app bg-deep-blue">
@@ -24,14 +27,6 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-      <div className="w-5/6 mx-auto md:h-full">
-        {isAboveMediumScreens && (
-          <DotGroup 
-            selectedPage={selectedPage}
-            setSelectedPage={setSelectedPage}
-          />
-        )}
-      </div>
     </div>
   );
 }
