@@ -13,6 +13,27 @@ const DotGroup = ({ selectedPage, setSelectedPage }) => {
         } w-3 h-3 rounded-full`}
         onClick={() => setSelectedPage("home")}
       />
+      <AnchorLink
+        href="#skills"
+        className={`${
+          selectedPage === "skills" ? selectedStyles : "bg-dark-grey"
+        } w-3 h-3 rounded-full`}
+        onClick={() => setSelectedPage("skills")}
+      />
+      <AnchorLink
+        href="#projects"
+        className={`${
+          selectedPage === "projects" ? selectedStyles : "bg-dark-grey"
+        } w-3 h-3 rounded-full`}
+        onClick={() => setSelectedPage("projects")}
+      />
+      <AnchorLink
+        href="#contact"
+        className={`${
+          selectedPage === "contact" ? selectedStyles : "bg-dark-grey"
+        } w-3 h-3 rounded-full`}
+        onClick={() => setSelectedPage("contact")}
+      />
     </div>
   );
 };
