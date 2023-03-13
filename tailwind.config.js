@@ -5,20 +5,21 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "deep-blue": "#010026",
-        blue: "#2CBCE9",
-        red: "#DC4492",
-        yellow: "#FDCC49",
-        grey: "#ededed",
-        "dark-grey": "#757575",
+        "deep-blue": "#346588",
+        blue: "#9bb9d5",
+        red: "#f76567",
+        yellow: "#e6d4ab",
+        grey: "#b1b5b6",
+        "dark-grey": "#747474",
         "opaque-black": "rgba(0,0,0,0.35)",
       },
       backgroundImage: (theme) => ({
         "gradient-rainbow":
-          "linear-gradient(81.66deg, #00B5EE 7.21%, #FF45A4 45.05%, #FFBA00 78.07%)",
+        "linear-gradient(81.66deg, #9bb9d5 7.21%, #f76567 45.05%, #e6d4ab 78.07%)",
 
         "gradient-rainblue":
-          "linear-gradient(90deg, #24CBFF 14.53%, #FC59FF 69.36%, #FFBD0C 117.73%)",
+        "linear-gradient(90deg, #9bb9d5 14.53%, #efb9a5 69.36%, #e6d4ab 117.73%)",
+
       }),
       fontFamily: {
         playfair: ["Playfair Display", "serif"],

@@ -25,7 +25,7 @@ const Project = ({ title }) => {
                     This is where I talk about the project.
                 </p>
             </div>
-            <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+            <img src={`../assets/${projectTitle}.jpg`} alt={projectTitle} />
         </motion.div>
     )
 }

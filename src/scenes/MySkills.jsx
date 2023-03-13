@@ -32,19 +32,19 @@ const MySkills = () => {
                 <div className="mt-16 md:mt-0">
                     {isAboveMediumScreens ? (
                         <div
-                        className="relative z-0 ml-20 before:absolute before:-top-10  before:-left-10 before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
+                        className="relative z-0 w-4/6 ml-20 before:absolute before:-top-10  before:left-4 before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
                         >
                             <img
                                 alt="skills"
-                                className="z-10"
-                                src={require("../assets/skills-image.png")}
+                                className="z-10 ml-14"
+                                src={require("../assets/skills-image.webp")}
                             />
                         </div>
                     ) : (
                         <img
                           alt="skills"
                           className="z-10"
-                          src={require("../assets/skills-image.png")}
+                          src={require("../assets/skills-image.webp")}
                         />
                     )}
                 </div>
