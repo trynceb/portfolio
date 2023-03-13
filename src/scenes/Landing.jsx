@@ -15,12 +15,11 @@ const Landing = ({ setSelectedPage }) => {
       <div className="md:order-2 flex justify-center basis-3/5 z-10 mt-16 md:mt-32">
         {isAboveMediumScreens ? (
           <div
-            className="relative z-0 ml-20 before:absolute before:top-11  before:-left-20 before:rounded-t-[400px]
-            before:w-full before:max-w-[400px] md:before:max-w-[600px]    before:h-full before:border-2 before:border-blue before:z-[-1]"
+            className="relative z-0 ml-20 before:absolute before:-top-10  before:-left-20 before:rounded-t-[400px] before:w-5/6 before:max-w-[400px] md:before:max-w-[600px] before:h-4/5 before:border-2 before:border-blue before:z-[-1]"
             >
             <img
               alt="profile"
-              className="hover:filter mt-24 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-[400px]"
+              className="hover:filter mt-[-2] transition duration-500 z-10 w-5/6 max-w-[400px] md:max-w-[600px] rounded-t-[400px]"
               src={require("../assets/cph.jpg")}
             />
           </div>
