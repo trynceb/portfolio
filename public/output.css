@@ -641,6 +641,14 @@ video {
   top: 5rem;
 }
 
+.bottom-9{
+  bottom: 2.25rem;
+}
+
+.bottom-20{
+  bottom: 5rem;
+}
+
 .z-40{
   z-index: 40;
 }
@@ -797,6 +805,18 @@ video {
 
 .h-32{
   height: 8rem;
+}
+
+.h-64{
+  height: 16rem;
+}
+
+.h-56{
+  height: 14rem;
+}
+
+.h-48{
+  height: 12rem;
 }
 
 .max-h-\[400px\]{
