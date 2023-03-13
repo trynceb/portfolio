@@ -15,7 +15,7 @@ const Landing = ({ setSelectedPage }) => {
       <div className="md:order-2 flex justify-center basis-3/5 z-10 mt-16 md:mt-32">
         {isAboveMediumScreens ? (
           <div
-            className="relative z-0 ml-20 before:absolute before:-top-10  before:-left-20 before:rounded-t-[400px] before:w-5/6 before:max-w-[400px] md:before:max-w-[600px] before:h-4/5 before:border-2 before:border-blue before:z-[-1]"
+            className="relative z-0 ml-20 before:absolute before:-top-10  before:-left-20 before:rounded-t-[400px] before:w-5/6 before:max-w-[400px] md:before:max-w-[600px] before:h-5/6 before:border-2 before:border-blue before:z-[-1]"
             >
             <img
               alt="profile"
