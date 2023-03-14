@@ -817,6 +817,10 @@ video {
   margin-top: 1rem;
 }
 
+.mr-2{
+  margin-right: 0.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -847,6 +851,14 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-auto{
+  height: auto;
+}
+
+.h-8{
+  height: 2rem;
 }
 
 .max-h-\[400px\]{

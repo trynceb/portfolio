@@ -24,9 +24,25 @@ const MySkills = () => {
                         MY <span className="text-red">SKILLS</span>
                     </p>
                     <LineGradient width="1/3" />
-                    <p className="mt-10 mb-7">
-                        Add text about skills here.
-                    </p>
+                    <div className="flex mt-5">
+                        <img alt="javascript" className="w-10 mr-1" src={require("../assets/javascript.png")} />
+                        <img alt="react" className="w-10 mr-1" src={require("../assets/react.png")} />
+                        <img alt="express" className="w-10" src={require("../assets/express.png")} />
+                    </div>
+                    <div className="flex mt-3">
+                        <img alt="node.js" className="w-10 mr-1" src={require("../assets/node.js.png")} />
+                        <img alt="mongodb" className="w-10 mr-1" src={require("../assets/mongodb.png")} />
+                        <img alt="tailwind" className="w-10" src={require("../assets/tailwind.png")} />
+                    </div>
+                    <div className="flex mt-3">
+                        <img alt="sass" className="w-10 mr-1" src={require("../assets/sass.png")} />
+                        <img alt="python" className="w-10 mr-1" src={require("../assets/python.png")} />
+                        <img alt="postgresql" className="w-10" src={require("../assets/postgresql.png")} />
+                    </div>
+                    <div className="flex mt-3">
+                        <img alt="django" className="w-10 mr-2" src={require("../assets/django.png")} />
+                        <img alt="postman" className="w-8 h-8 mr-1" src={require("../assets/postman.png")} />
+                    </div>
                 </motion.div>
 
                 <div className="mt-16 md:mt-0">
