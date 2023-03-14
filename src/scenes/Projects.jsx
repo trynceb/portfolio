@@ -79,8 +79,36 @@ const Projects = () => {
 
 
                     {/* ROW 2 */}
-                    {/* <Project title="Project 3" /> */}
-                    {/* <Project title="Project 4" /> */}
+                    {/* PROJECT 3 */}
+                    <motion.div variants={projectVariant} className="relative">
+                        <img src={require('../assets/green.jpg')} alt="coming-soon" />
+                        <div className="absolute inset-0 flex justify-center items-center">
+                            <div className="text-center text-2xl font-playfair font-semibold">
+                            Coming Soon!
+                            </div>
+                        </div>
+                        <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
+                            <p className="text-2xl font-playfair">Coming Soon...</p>
+                            <p className="mt-7">
+                            This is where I talk about the project.
+                            </p>
+                        </div>
+                    </motion.div>
+                    {/* PROJECT4 /> */}
+                    <motion.div variants={projectVariant} className="relative">
+                        <img src={require('../assets/yellow.jpg')} alt="coming-soon" />
+                        <div className="absolute inset-0 flex justify-center items-center">
+                            <div className="text-center text-2xl font-playfair font-semibold">
+                            Coming Soon!
+                            </div>
+                        </div>
+                        <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
+                            <p className="text-2xl font-playfair">Coming Soon...</p>
+                            <p className="mt-7">
+                            This is where I talk about the project.
+                            </p>
+                        </div>
+                    </motion.div>
                     {/* <Project title="Project 5" /> */}
 
                     {/* ROW 2 */}
