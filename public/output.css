@@ -773,6 +773,18 @@ video {
   margin-right: 24rem;
 }
 
+.mr-1{
+  margin-right: 0.25rem;
+}
+
+.ml-1{
+  margin-left: 0.25rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -1113,6 +1125,15 @@ video {
 .text-yellow{
   --tw-text-opacity: 1;
   color: rgb(230 212 171 / var(--tw-text-opacity));
+}
+
+.text-green{
+  --tw-text-opacity: 1;
+  color: rgb(25 188 185 / var(--tw-text-opacity));
+}
+
+.underline{
+  text-decoration-line: underline;
 }
 
 .placeholder-opaque-black::-webkit-input-placeholder{

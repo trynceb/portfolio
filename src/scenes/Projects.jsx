@@ -61,18 +61,26 @@ const Projects = () => {
                         <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
                             <p className="text-2xl font-playfair">The Social</p>
                             <p className="mt-7">
-                                This is where I talk about the project.
+                                The Social is a full MERN stack application designed for sharing photos and captions with friends, like a modern social media platform.
                             </p>
+                            <div className="flex justify-between mt-2">
+                                <a href="https://the-social.onrender.com" className="underline mr-1">DEPLOY</a>
+                                    <span>|</span>
+                                <a href="https://github.com/trynceb/social" className="underline ml-1">README</a>
+                            </div>
                         </div>
                         <img src={require(`../assets/project-1.jpg`)} alt="the-social" />
                     </motion.div>
                     {/* PROJECT 2 */}
                     <motion.div variants={projectVariant} className="relative">
                         <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
-                            <p className="text-2xl font-playfair">AI Chat</p>
+                            <p className="text-2xl font-playfair">Mind Mentor</p>
                             <p className="mt-7">
-                                This is where I talk about the project.
+                            Mind Mentor is an AI Chat App designed to help users by communicating with an AI-powered motivational coach, which is built using the OpenAI API GPT-3.5.
                             </p>
+                            <div className="flex justify-between mt-2">
+                                <a href="https://github.com/trynceb/social" className="underline ml-1">README</a>
+                            </div>
                         </div>
                         <img src={require(`../assets/project-2.jpg`)} alt="ai-chat" />
                     </motion.div>
