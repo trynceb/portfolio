@@ -41,12 +41,16 @@ function App() {
         )}
         <Landing setSelectedPage={setSelectedPage} />
       </div>
-      <LineGradient />
+      <div className="mt-10">
+        <LineGradient />
+      </div>
       <div className="w-5/6 mx-auto md:h-full">
           <MySkills />
       </div>
-      <LineGradient />
-      <div className="w-5/6 mx-auto">
+      <div className="mt-56">
+        <LineGradient />
+      </div>
+      <div className="w-5/6 mx-auto -mt-14">
           <Projects />
       </div>
       <div>
