@@ -87,12 +87,6 @@ const Projects = () => {
                             Coming Soon!
                             </div>
                         </div>
-                        <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
-                            <p className="text-2xl font-playfair">Coming Soon...</p>
-                            <p className="mt-7">
-                            This is where I talk about the project.
-                            </p>
-                        </div>
                     </motion.div>
                     {/* PROJECT4 /> */}
                     <motion.div variants={projectVariant} className="relative">
@@ -102,18 +96,12 @@ const Projects = () => {
                             Coming Soon!
                             </div>
                         </div>
-                        <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
-                            <p className="text-2xl font-playfair">Coming Soon...</p>
-                            <p className="mt-7">
-                            This is where I talk about the project.
-                            </p>
-                        </div>
                     </motion.div>
-                    {/* <Project title="Project 5" /> */}
+                    {/* PROJECT 5 */}
 
-                    {/* ROW 2 */}
-                    {/* <Project title="Project 6" /> */}
-                    {/* <Project title="Project 7" /> */}
+                    {/* ROW 3 */}
+                    {/* PROJECT 6 */}
+                    {/* PROJECT 7 /> */}
                     <div
                         className="flex justify-center text-center items-center p-10 bg-blue max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
                     >
