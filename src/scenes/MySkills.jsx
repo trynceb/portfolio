@@ -32,16 +32,17 @@ const MySkills = () => {
                     <div className="flex mt-3">
                         <img alt="node.js" className="w-10 mr-1" src={require("../assets/node.js.png")} />
                         <img alt="mongodb" className="w-10 mr-1" src={require("../assets/mongodb.png")} />
+                        <img alt="postman" className="w-8 h-8 mt-1 ml-1" src={require("../assets/postman.png")} />
+                    </div>
+                    <div className="flex mt-3">
+                        <img alt="materialui" className="w-10 mr-1" src={require("../assets/materialui.png")} />
+                        <img alt="sass" className="w-10 mr-1" src={require("../assets/sass.png")} />
                         <img alt="tailwind" className="w-10" src={require("../assets/tailwind.png")} />
                     </div>
                     <div className="flex mt-3">
-                        <img alt="sass" className="w-10 mr-1" src={require("../assets/sass.png")} />
                         <img alt="python" className="w-10 mr-1" src={require("../assets/python.png")} />
-                        <img alt="postgresql" className="w-10" src={require("../assets/postgresql.png")} />
-                    </div>
-                    <div className="flex mt-3">
                         <img alt="django" className="w-10 mr-2" src={require("../assets/django.png")} />
-                        <img alt="postman" className="w-8 h-8 mr-1" src={require("../assets/postman.png")} />
+                        <img alt="postgresql" className="w-10" src={require("../assets/postgresql.png")} />
                     </div>
                 </motion.div>
 
@@ -90,7 +91,7 @@ const MySkills = () => {
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
                         <p className="mt-10">
-                            This is where I talk about my experience.
+                            Since completing the bootcamp, I have made a commitment to continuous self-learning and skill improvement, gaining valuable experience every day.
                         </p>
                     </div>
                 </motion.div>
@@ -117,7 +118,7 @@ const MySkills = () => {
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
                         <p className="mt-10">
-                            This is where I talk about how innovative i am.
+                            I pride myself on being an innovative thinker, always seeking new and creative ways to approach challenges and push boundaries in my work.
                         </p>
                     </div>
                 </motion.div>
@@ -144,7 +145,7 @@ const MySkills = () => {
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                         <p className="mt-10">
-                            This is where I talk about how my imaginativity.
+                            I bring a unique perspective to every project, infusing my work with creativity and originality to deliver standout results.
                         </p>
                     </div>
                 </motion.div>
