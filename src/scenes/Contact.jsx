@@ -32,7 +32,7 @@ const Contact = () => {
         className="flex justify-center w-full"
       >
         <div>
-          <p className="font-playfair font-semibold text-4xl">
+          <p className="font-playfair font-semibold text-4xl md:justify-center">
             <span className="text-yellow">CONTACT ME</span> TO GET STARTED
           </p>
           <div className="flex md:justify-center my-5">
@@ -42,8 +42,8 @@ const Contact = () => {
       </motion.div>
 
       {/* FORM */}
-      <div className="flex justify-center">
-        <div className="md:flex md:justify-between gap-16 mt-5">
+      <div className="flex flex-cols-1 justify-center">
+        <div className="md:flex md:justify-center gap-16 mt-5">
           <motion.div
             initial="hidden"
             whileInView="visible"

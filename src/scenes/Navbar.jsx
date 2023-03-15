@@ -53,10 +53,10 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
           </div>
         ) : (
           <button
-            className="rounded-full bg-red p-2 mt-3"
+            className="rounded-full bg-red p-2 mt-1"
             onClick={() => setIsMenuToggled(!isMenuToggled)}
           >
-            <img alt="menu-icon" className="w-8 -mt-3" src={require("../assets/menu-icon.png")} />
+            <img alt="menu-icon" className="w-8 -mt-1" src={require("../assets/menu-icon.png")} />
           </button>
         )}
 
@@ -87,11 +87,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
-              {/* <Link
+              <Link
                 page="Contact"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
-              /> */}
+              />
             </div>
           </div>
         )}

@@ -55,7 +55,7 @@ const Projects = () => {
                 >
                     {/* ROW 1 */}
                     <div
-                        className="flex justify-center text-center items-center p-10 bg-red max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+                        className="flex justify-center text-center items-center p-10 bg-red text-2xl font-playfair font-semibold"
                     >
                         BEAUTIFUL USER INTERFACES
                     </div>
@@ -130,7 +130,7 @@ const Projects = () => {
                     {/* PROJECT 6 */}
                     {/* PROJECT 7 /> */}
                     <div
-                        className="flex justify-center text-center items-center p-10 bg-blue max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+                        className="flex justify-center text-center items-center p-10 bg-blue text-2xl font-playfair font-semibold"
                     >
                         SMOOTH USER EXPERIENCE
                     </div>
