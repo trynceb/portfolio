@@ -1062,6 +1062,10 @@ video {
   background-image: linear-gradient(90deg, #9bb9d5 14.53%, #efb9a5 69.36%, #e6d4ab 117.73%);
 }
 
+.object-contain{
+  object-fit: contain;
+}
+
 .p-10{
   padding: 2.5rem;
 }

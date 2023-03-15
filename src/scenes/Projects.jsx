@@ -69,7 +69,7 @@ const Projects = () => {
                                 <a href="https://github.com/trynceb/social" className="underline ml-1">README</a>
                             </div>
                         </div>
-                        <img src={require(`../assets/project-1.jpg`)} alt="the-social" />
+                        <img className="object-contain" src={require(`../assets/project-1.jpg`)} alt="the-social" />
                     </motion.div>
                     {/* PROJECT 2 */}
                     <motion.div variants={projectVariant} className="relative">
@@ -82,14 +82,14 @@ const Projects = () => {
                                 <a href="https://github.com/trynceb/social" className="underline ml-1">README</a>
                             </div>
                         </div>
-                        <img src={require(`../assets/project-2.jpg`)} alt="ai-chat" />
+                        <img className="object-contain" src={require(`../assets/project-2.jpg`)} alt="ai-chat" />
                     </motion.div>
 
 
                     {/* ROW 2 */}
                     {/* PROJECT 3 */}
                     <motion.div variants={projectVariant} className="relative">
-                        <img src={require('../assets/green.jpg')} alt="coming-soon" />
+                        <img className="object-contain" src={require('../assets/green.jpg')} alt="coming-soon" />
                         <div className="absolute inset-0 flex justify-center items-center">
                             <div className="text-center text-2xl font-playfair font-semibold">
                             Coming Soon!
@@ -98,7 +98,7 @@ const Projects = () => {
                     </motion.div>
                     {/* PROJECT4 /> */}
                     <motion.div variants={projectVariant} className="relative">
-                        <img src={require('../assets/yellow.jpg')} alt="coming-soon" />
+                        <img className="object-contain" src={require('../assets/yellow.jpg')} alt="coming-soon" />
                         <div className="absolute inset-0 flex justify-center items-center">
                             <div className="text-center text-2xl font-playfair font-semibold">
                             Coming Soon!
