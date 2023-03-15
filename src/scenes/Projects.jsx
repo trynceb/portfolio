@@ -74,7 +74,7 @@ const Projects = () => {
                         </div>
                         <img
                             className="object-contain"
-                            src={isMobile ? require(`../assets/project-1-mobile.jpg`) : require(`../assets/project-1.jpg`).default}
+                            src={isMobile ? require(`../assets/project-1-mobile.jpg`) : require(`../assets/project-1.jpg`)}
                             alt="the-social"
                         />
                     </motion.div>
@@ -86,12 +86,12 @@ const Projects = () => {
                             Mind Mentor is an AI Chat App designed to help users by communicating with an AI-powered motivational coach, which is built using the OpenAI API GPT-3.5.
                             </p>
                             <div className="flex justify-between mt-2">
-                                <a href="https://github.com/trynceb/social" className="underline ml-1">README</a>
+                                <a href="https://github.com/trynceb/MindMentor" className="underline ml-1">README</a>
                             </div>
                         </div>
                         <img
                             className="object-contain"
-                            src={isMobile ? require(`../assets/project-2-mobile.jpg`) : require(`../assets/project-2.jpg`).default}
+                            src={isMobile ? require(`../assets/project-2-mobile.jpg`) : require(`../assets/project-2.jpg`)}
                             alt="ai-chat"
                         />
                     </motion.div>
@@ -102,7 +102,7 @@ const Projects = () => {
                     <motion.div variants={projectVariant} className="relative">
                         <img
                             className="object-contain"
-                            src={isMobile ? require(`../assets/green-mobile.jpg`) : require(`../assets/green.jpg`).default}
+                            src={isMobile ? require(`../assets/green-mobile.jpg`) : require(`../assets/green.jpg`)}
                             alt="coming-soon"
                         />
                         <div className="absolute inset-0 flex justify-center items-center">
@@ -115,7 +115,7 @@ const Projects = () => {
                     <motion.div variants={projectVariant} className="relative">
                         <img
                             className="object-contain"
-                            src={isMobile ? require(`../assets/yellow-mobile.jpg`) : require(`../assets/yellow.jpg`).default}
+                            src={isMobile ? require(`../assets/yellow-mobile.jpg`) : require(`../assets/yellow.jpg`)}
                             alt="coming-soon"
                         />
                         <div className="absolute inset-0 flex justify-center items-center">
