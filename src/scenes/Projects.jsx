@@ -37,7 +37,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <p className="mt-10 mb-10">
-                    This is where I talk about my projects.
+                    Here's a few of my recent projects!
                 </p>
             </motion.div>
             {/* PROJECTS */}
