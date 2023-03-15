@@ -83,17 +83,16 @@ const MySkills = () => {
                 >
                     <div className="relative h-32">
                         <div className="z-10">
-                            <p className="font-playfair font-semibold text-5xl">01
-                            </p>
+                            <p className="font-playfair font-semibold text-5xl">01</p>
                             <p className="font-playfair font-semibold text-3xl mt-3">
                                 Experience
                             </p>
                         </div>
-                        <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
-                        <p className="mt-10">
-                            Since completing the bootcamp, I have made a commitment to continuous self-learning and skill improvement, gaining valuable experience every day.
-                        </p>
+                        <div className="w-1/2 md:w-3/4  h-32 bg-blue absolute right-0 top-0 z-[-1]" />
                     </div>
+                    <p className="mt-5">
+                        Since completing the bootcamp, I have made a commitment to continuous self-learning and skill improvement, gaining valuable experience every day.
+                    </p>
                 </motion.div>
 
                 {/* INNOVATIVE */}
@@ -117,10 +116,10 @@ const MySkills = () => {
                             </p>
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
-                        <p className="mt-10">
-                            I pride myself on being an innovative thinker, always seeking new and creative ways to approach challenges and push boundaries in my work.
-                        </p>
                     </div>
+                    <p className="mt-5">
+                        I pride myself on being an innovative thinker, always seeking new and creative ways to approach challenges and push boundaries in my work.
+                    </p>
                 </motion.div>
 
                 {/* IMAGINATIVE */}
@@ -144,10 +143,10 @@ const MySkills = () => {
                             </p>
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
-                        <p className="mt-10">
-                            I bring a unique perspective to every project, infusing my work with creativity and originality to deliver standout results.
-                        </p>
                     </div>
+                    <p className="mt-5">
+                        I bring a unique perspective to every project, infusing my work with creativity and originality to deliver standout results.
+                    </p>
                 </motion.div>
             </div>
         </section>
