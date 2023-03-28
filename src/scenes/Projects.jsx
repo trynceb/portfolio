@@ -62,6 +62,25 @@ const Projects = () => {
                     {/* PROJECT 1 */}
                     <motion.div variants={projectVariant} className="relative">
                         <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
+                            <p className="text-2xl font-playfair">Ecomverse</p>
+                            <p className="mt-7">
+                            Ecomverse is an admin dashboard that displays all your data in one place, from product details to transactions. You can look up each customer and also see they are located. You can also get a monthly and daily breakdown of your sales, as well as performance details.
+                            </p>
+                            <div className="flex justify-between mt-2">
+                                <a href="https://ecomverse-tfig.onrender.com" className="underline mr-1">DEPLOY</a>
+                                    <span>|</span>
+                                <a href="https://github.com/trynceb/admin-dashboard" className="underline ml-1">README</a>
+                            </div>
+                        </div>
+                        <img
+                            className="object-contain"
+                            src={isMobile ? require(`../assets/project-3-mobile.jpg`) : require(`../assets/project-3.jpg`)}
+                            alt="the-social"
+                        />
+                    </motion.div>
+                    {/* PROJECT 2 */}
+                    <motion.div variants={projectVariant} className="relative">
+                        <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
                             <p className="text-2xl font-playfair">The Social</p>
                             <p className="mt-7">
                                 The Social is a full MERN stack application designed for sharing photos and captions with friends, like a modern social media platform.
@@ -78,7 +97,9 @@ const Projects = () => {
                             alt="the-social"
                         />
                     </motion.div>
-                    {/* PROJECT 2 */}
+
+                    {/* ROW 2 */}
+                    {/* PROJECT 3 */}
                     <motion.div variants={projectVariant} className="relative">
                         <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
                             <p className="text-2xl font-playfair">Mind Mentor</p>
@@ -95,22 +116,6 @@ const Projects = () => {
                             alt="ai-chat"
                         />
                     </motion.div>
-
-
-                    {/* ROW 2 */}
-                    {/* PROJECT 3 */}
-                    <motion.div variants={projectVariant} className="relative">
-                        <img
-                            className="object-contain"
-                            src={isMobile ? require(`../assets/green-mobile.jpg`) : require(`../assets/green.jpg`)}
-                            alt="coming-soon"
-                        />
-                        <div className="absolute inset-0 flex justify-center items-center">
-                            <div className="text-center text-2xl font-playfair font-semibold">
-                            Coming Soon!
-                            </div>
-                        </div>
-                    </motion.div>
                     {/* PROJECT4 /> */}
                     <motion.div variants={projectVariant} className="relative">
                         <img
@@ -125,6 +130,18 @@ const Projects = () => {
                         </div>
                     </motion.div>
                     {/* PROJECT 5 */}
+                    <motion.div variants={projectVariant} className="relative">
+                        <img
+                            className="object-contain"
+                            src={isMobile ? require(`../assets/green-mobile.jpg`) : require(`../assets/green.jpg`)}
+                            alt="coming-soon"
+                        />
+                        <div className="absolute inset-0 flex justify-center items-center">
+                            <div className="text-center text-2xl font-playfair font-semibold">
+                            Coming Soon!
+                            </div>
+                        </div>
+                    </motion.div>
 
                     {/* ROW 3 */}
                     {/* PROJECT 6 */}
