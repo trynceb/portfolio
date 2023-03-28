@@ -130,7 +130,7 @@ const Projects = () => {
                         </div>
                     </motion.div>
                     {/* PROJECT 5 */}
-                    <motion.div variants={projectVariant} className="relative">
+                    {/* <motion.div variants={projectVariant} className="relative">
                         <img
                             className="object-contain"
                             src={isMobile ? require(`../assets/green-mobile.jpg`) : require(`../assets/green.jpg`)}
@@ -141,7 +141,7 @@ const Projects = () => {
                             Coming Soon!
                             </div>
                         </div>
-                    </motion.div>
+                    </motion.div> */}
 
                     {/* ROW 3 */}
                     {/* PROJECT 6 */}
