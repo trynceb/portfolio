@@ -25,23 +25,23 @@ const MySkills = () => {
                     </p>
                     <LineGradient width="1/3" />
                     <div className="flex justify-between mt-5">
-                        <img alt="javascript" title="JavaScript" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/javascript.png")} />
-                        <img alt="react" title="React" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/react.png")} />
+                        <img alt="javascript" title="JavaScript" className="w-10 mr-3 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/javascript.png")} />
+                        <img alt="react" title="React" className="w-10 mr-3 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/react.png")} />
                         <img alt="express" title="Express" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/express.png")} />
                     </div>
                     <div className="flex justify-between mt-3">
-                        <img alt="node.js" title="Node.js" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/node.js.png")} />
-                        <img alt="mongodb" title="MongoDB" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50 mr-1" src={require("../assets/mongodb.png")} />
+                        <img alt="node.js" title="Node.js" className="w-10 mr-3 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/node.js.png")} />
+                        <img alt="mongodb" title="MongoDB" className="w-10 mr-4 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/mongodb.png")} />
                         <img alt="postman" title="Postman" className="w-8 h-8 mt-1 mr-1 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/postman.png")} />
                     </div>
                     <div className="flex justify-between mt-3">
-                        <img alt="materialui" title="Material UI" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/materialui.png")} />
-                        <img alt="sass" title="SASS" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/sass.png")} />
+                        <img alt="materialui" title="Material UI" className="w-10 mr-3 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/materialui.png")} />
+                        <img alt="sass" title="SASS" className="w-10 mr-3 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/sass.png")} />
                         <img alt="tailwind" title="Tailwind" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/tailwind.png")} />
                     </div>
                     <div className="flex justify-between mt-3">
-                        <img alt="python" title="Python" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/python.png")} />
-                        <img alt="django" title="Django" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/django.png")} />
+                        <img alt="python" title="Python" className="w-10 mr-3 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/python.png")} />
+                        <img alt="django" title="Django" className="w-10 mr-3 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/django.png")} />
                         <img alt="postgresql" title="PostgreSQL" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/postgresql.png")} />
                     </div>
                 </motion.div>
