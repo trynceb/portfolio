@@ -62,6 +62,26 @@ const Projects = () => {
                     {/* PROJECT 1 */}
                     <motion.div variants={projectVariant} className="relative">
                         <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
+                            <p className="text-2xl font-playfair">AI-Imagemaker</p>
+                            <p className="mt-7">
+                            AI-Imagemaker is a application that uses OpenAI's DALL-E API to create prompted images
+                            </p>
+                            <div className="flex justify-between mt-2">
+                                <a href="https://ai-imagemaker.onrender.com" className="underline mr-1">DEPLOY</a>
+                                    <span>|</span>
+                                <a href="https://github.com/trynceb/ai-imagemaker" className="underline ml-1">README</a>
+                            </div>
+                        </div>
+                        <img
+                            className="object-contain"
+                            src={isMobile ? require(`../assets/project-4-mobile.jpg`) : require(`../assets/project-4.jpg`)}
+                            alt="ai-imagemaker"
+                        />
+                    </motion.div>
+
+                    {/* PROJECT 2 */}
+                    <motion.div variants={projectVariant} className="relative">
+                        <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
                             <p className="text-2xl font-playfair">Ecomverse</p>
                             <p className="mt-7">
                             Ecomverse is an admin dashboard that displays all your data in one place, from product details to transactions. You can look up each customer and also see they are located. You can also get a monthly and daily breakdown of your sales, as well as performance details.
@@ -78,7 +98,9 @@ const Projects = () => {
                             alt="the-social"
                         />
                     </motion.div>
-                    {/* PROJECT 2 */}
+
+                    {/* ROW 2 */}
+                    {/* PROJECT 3 */}
                     <motion.div variants={projectVariant} className="relative">
                         <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
                             <p className="text-2xl font-playfair">The Social</p>
@@ -98,8 +120,7 @@ const Projects = () => {
                         />
                     </motion.div>
 
-                    {/* ROW 2 */}
-                    {/* PROJECT 3 */}
+                    {/* PROJECT 4 */}
                     <motion.div variants={projectVariant} className="relative">
                         <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500 bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
                             <p className="text-2xl font-playfair">Mind Mentor</p>
@@ -116,8 +137,24 @@ const Projects = () => {
                             alt="ai-chat"
                         />
                     </motion.div>
-                    {/* PROJECT4 /> */}
-                    <motion.div variants={projectVariant} className="relative">
+
+                    {/* PROJECT 5 */}
+                    {/* <motion.div variants={projectVariant} className="relative">
+                        <img
+                        className="object-contain"
+                        src={isMobile ? require(`../assets/green-mobile.jpg`) : require(`../assets/green.jpg`)}
+                        alt="coming-soon"
+                        />
+                        <div className="absolute inset-0 flex justify-center items-center">
+                        <div className="text-center text-2xl font-playfair font-semibold">
+                        Coming Soon!
+                        </div>
+                        </div>
+                    </motion.div> */}
+
+                    {/* ROW 3 */}
+                    {/* PROJECT 6 */}
+                    {/* <motion.div variants={projectVariant} className="relative">
                         <img
                             className="object-contain"
                             src={isMobile ? require(`../assets/yellow-mobile.jpg`) : require(`../assets/yellow.jpg`)}
@@ -128,23 +165,7 @@ const Projects = () => {
                             Coming Soon!
                             </div>
                         </div>
-                    </motion.div>
-                    {/* PROJECT 5 */}
-                    {/* <motion.div variants={projectVariant} className="relative">
-                        <img
-                            className="object-contain"
-                            src={isMobile ? require(`../assets/green-mobile.jpg`) : require(`../assets/green.jpg`)}
-                            alt="coming-soon"
-                        />
-                        <div className="absolute inset-0 flex justify-center items-center">
-                            <div className="text-center text-2xl font-playfair font-semibold">
-                            Coming Soon!
-                            </div>
-                        </div>
                     </motion.div> */}
-
-                    {/* ROW 3 */}
-                    {/* PROJECT 6 */}
                     {/* PROJECT 7 /> */}
                     <div
                         className="flex justify-center text-center items-center p-10 bg-blue text-2xl font-playfair font-semibold"

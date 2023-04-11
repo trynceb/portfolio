@@ -20,7 +20,7 @@ const Landing = ({ setSelectedPage }) => {
             <img
               alt="profile"
               className="hover:filter mt-[-2] transition duration-500 z-10 w-5/6 max-w-[400px] md:max-w-[600px] rounded-t-[400px]"
-              src={require("../assets/cph.jpg")}
+              src={require("../assets/profile.jpg")}
             />
           </div>
         ) : (
@@ -28,7 +28,7 @@ const Landing = ({ setSelectedPage }) => {
             <img
               alt="profile"
               className="hover:filter transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-[400px] mb-10"
-              src={require("../assets/cph.jpg")}
+              src={require("../assets/profile.jpg")}
             />
           </div>
         )}
