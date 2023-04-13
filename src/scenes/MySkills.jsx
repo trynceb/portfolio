@@ -24,25 +24,95 @@ const MySkills = () => {
                         MY <span className="text-red">SKILLS</span>
                     </p>
                     <LineGradient width="1/3" />
-                    <div className="flex justify-between mt-5">
-                        <img alt="javascript" title="JavaScript" className="w-10 mr-3 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/javascript.png")} />
-                        <img alt="react" title="React" className="w-10 mr-3 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/react.png")} />
-                        <img alt="express" title="Express" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/express.png")} />
-                    </div>
-                    <div className="flex justify-between mt-3">
-                        <img alt="node.js" title="Node.js" className="w-10 mr-3 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/node.js.png")} />
-                        <img alt="mongodb" title="MongoDB" className="w-10 mr-4 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/mongodb.png")} />
-                        <img alt="postman" title="Postman" className="w-8 h-8 mt-1 mr-1 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/postman.png")} />
-                    </div>
-                    <div className="flex justify-between mt-3">
-                        <img alt="materialui" title="Material UI" className="w-10 mr-3 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/materialui.png")} />
-                        <img alt="sass" title="SASS" className="w-10 mr-3 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/sass.png")} />
-                        <img alt="tailwind" title="Tailwind" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/tailwind.png")} />
-                    </div>
-                    <div className="flex justify-between mt-3">
-                        <img alt="python" title="Python" className="w-10 mr-3 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/python.png")} />
-                        <img alt="django" title="Django" className="w-10 mr-3 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/django.png")} />
-                        <img alt="postgresql" title="PostgreSQL" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/postgresql.png")} />
+                    
+                    <div className="flex flex-row">
+                        {/* COLUMN 1 */}
+                        <div className="flex flex-col justify-between mt-5 items-center mx-2 text-center">
+                            <div class="flex flex-col items-center mb-3">
+                                <div class="flex-shrink-0">
+                                <img alt="javascript" title="JavaScript" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/javascript.png")} />
+                                </div>
+                                <p className="font-medium text-light-grey dark:text-white text-sm mt-2">JavaScript</p>
+                            </div>
+                            <div class="flex flex-col items-center mb-3">
+                                <div class="flex-shrink-0">
+                                <img alt="react" title="React" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/react.png")} />
+                                </div>
+                                <p className="font-medium text-light-grey dark:text-white text-sm mt-2">React</p>
+                            </div>
+                            <div class="flex flex-col items-center">
+                                <div class="flex-shrink-0">
+                                <img alt="express" title="Express" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/express.png")} />
+                                </div>
+                                <p className="font-medium text-light-grey dark:text-white text-sm mt-2">Express</p>
+                            </div>
+                        </div>
+
+                        {/* COLUMN 2 */}
+                        <div className="flex flex-col justify-between mt-5 items-center mx-2 text-center">
+                            <div class="flex flex-col items-center mb-3">
+                                <div class="flex-shrink-0">
+                                <img alt="node.js" title="Node.js" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/node.js.png")} />
+                                </div>
+                                <p className="font-medium text-light-grey dark:text-white text-sm mt-2">Node.js</p>
+                            </div>
+                            <div class="flex flex-col items-center mb-3">
+                                <div class="flex-shrink-0">
+                                <img alt="mongodb" title="MongoDB" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/mongodb.png")} />
+                                </div>
+                                <p className="font-medium text-light-grey dark:text-white text-sm mt-2">MongoDB</p>
+                            </div>
+                            <div class="flex flex-col items-center">
+                                <div class="flex-shrink-0">
+                                <img alt="postman" title="Postman" className="w-8 h-8 mt-1 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/postman.png")} />
+                                </div>
+                                <p className="font-medium text-light-grey dark:text-white text-sm mt-3">Postman</p>
+                            </div> 
+                        </div>
+
+                        {/* COLUMN 3 */}
+                        <div className="flex flex-col justify-between mt-5 items-center mx-2 text-center">
+                            <div class="flex flex-col items-center mb-3">
+                                <div class="flex-shrink-0">
+                                <img alt="materialui" title="Material UI" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/materialui.png")} />
+                                </div>
+                                <p className="font-medium text-light-grey dark:text-white text-sm mt-2 -mx-3">Material UI</p>
+                            </div>
+                            <div class="flex flex-col items-center mb-3">
+                                <div class="flex-shrink-0">
+                                <img alt="sass" title="SASS" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/sass.png")} />
+                                </div>
+                                <p className="font-medium text-light-grey dark:text-white text-sm mt-2">SASS</p>
+                            </div>
+                            <div class="flex flex-col items-center">
+                                <div class="flex-shrink-0">
+                                <img alt="tailwind" title="Tailwind" className="w-9 h-9 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/tailwind.png")} />
+                                </div>
+                                <p className="font-medium text-light-grey dark:text-white text-sm mt-3">Tailwind</p>
+                            </div> 
+                        </div>
+
+                        {/* COLUMN 4 */}
+                        <div className="flex flex-col justify-between mt-5 items-center mx-2 text-center">
+                            <div class="flex flex-col items-center mb-3">
+                                <div class="flex-shrink-0">
+                                <img alt="python" title="Python" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/python.png")} />
+                                </div>
+                                <p className="font-medium text-light-grey dark:text-white text-sm mt-2">Python</p>
+                            </div>
+                            <div class="flex flex-col items-center mb-3">
+                                <div class="flex-shrink-0">
+                                <img alt="django" title="Django" className="w-10 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/django.png")} />
+                                </div>
+                                <p className="font-medium text-light-grey dark:text-white text-sm mt-2">Django</p>
+                            </div>
+                            <div class="flex flex-col items-center">
+                                <div class="flex-shrink-0">
+                                <img alt="prostgresql" title="PostgreSQL" className="w-8 h-8 mt-1 hover:text-gray-500 hover:text-2xl hover:rounded-lg transition duration-50" src={require("../assets/postgresql.png")} />
+                                </div>
+                                <p className="font-medium text-light-grey dark:text-white text-sm mt-3">PostgreSQL</p>
+                            </div> 
+                        </div>
                     </div>
                 </motion.div>
 
